@@ -15,7 +15,6 @@ const fetching = async () => {
                 </div>
             </article>`
         }).join("");
-        console.log(products)
         result.innerHTML = products;
     }
 }
